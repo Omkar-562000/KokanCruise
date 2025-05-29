@@ -1,17 +1,16 @@
 // File: src/App.jsx
-import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Navbar from "./Components/Navbar";
+import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import "./App.css"; // For any component-specific or utility classes not directly in Tailwind classes
 import Footer from "./Components/Footer";
-import Home from "./Pages/Home";
+import Navbar from "./Components/Navbar";
 import About from "./Pages/About";
 import Booking from "./Pages/Booking";
 import Contact from "./Pages/Contact";
-import Gallery from "./Pages/Gallery";
-import TravelBlog from "./Pages/TravelBlog";
-import Map from "./Pages/Map";
 import Destinations from "./Pages/Destinations";
-import "./App.css"; // For any component-specific or utility classes not directly in Tailwind classes
+import Gallery from "./Pages/Gallery";
+import Home from "./Pages/Home";
+import Map from "./Pages/Map";
+import TravelBlog from "./Pages/TravelBlog";
 
 // Simple 404 Not Found Page Component
 const NotFound = () => {

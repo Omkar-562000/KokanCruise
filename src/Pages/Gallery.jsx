@@ -1,5 +1,4 @@
 // File: src/pages/Gallery.jsx
-import React from "react";
 
 const Gallery = () => {
   const images = [

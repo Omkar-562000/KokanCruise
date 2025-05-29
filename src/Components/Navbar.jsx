@@ -1,5 +1,5 @@
 // File: src/components/Navbar.jsx
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom"; // Use NavLink for active link styling
 
 const Navbar = () => {

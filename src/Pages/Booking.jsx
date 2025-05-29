@@ -1,5 +1,5 @@
 // File: src/pages/Booking.jsx
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Booking = () => {
   const [name, setName] = useState("");

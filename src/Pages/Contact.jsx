@@ -1,5 +1,5 @@
 // File: src/pages/Contact.jsx
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom"; // Assuming you might link to map page
 
 const Contact = () => {
