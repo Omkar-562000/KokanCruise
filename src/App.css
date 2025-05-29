@@ -1,0 +1,43 @@
+
+/* Base styles for all form inputs and textareas */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D1D5DB; /* gray-300 */
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 0.75rem; /* p-3 */
+    color: #1F2937; /* text-gray-800 */
+    transition: box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  
+    /* Placeholder color */
+    ::placeholder {
+      color: #9CA3AF; /* placeholder-gray-400 */
+      opacity: 1;
+    }
+  
+    /* Focus styles */
+    outline: none;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="date"]:focus,
+  textarea:focus {
+    box-shadow: 0 0 0 2px #33ac1a; /* focus:ring-2 focus:ring-blue-500 */
+    border-color: #2bff00; /* focus:border-blue-500 */
+}
+
+/* General button styling for better hover effects */
+button {
+  transition: transform 300ms ease-in-out; /* Added transform for scale effect */
+}
+
+button:hover {
+  transform: translateY(-2px); /* Subtle lift on hover */
+}
+
+/* Specific styling for Navbar links using NavLink's isActive property */
+/* This is handled directly in Navbar.jsx now */
